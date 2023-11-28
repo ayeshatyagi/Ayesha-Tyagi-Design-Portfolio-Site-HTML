@@ -1,0 +1,470 @@
+.mental-awareness-interest-poster-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.mental-awareness-interest-poster-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: var(--dl-color-primary1-bf00ff);
+}
+.mental-awareness-interest-poster-navbar-interactive {
+  width: 90%;
+  display: flex;
+  position: sticky;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-threeunits);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.mental-awareness-interest-poster-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+.mental-awareness-interest-poster-navlink {
+  height: 28px;
+  display: flex;
+  padding: 0px;
+  border-width: 0px;
+  flex-direction: row;
+  text-decoration: none;
+}
+.mental-awareness-interest-poster-logo {
+  object-fit: cover;
+}
+.mental-awareness-interest-poster-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.mental-awareness-interest-poster-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.mental-awareness-interest-poster-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.mental-awareness-interest-poster-button {
+  height: 18px;
+  display: flex;
+  padding: 0px;
+  margin-left: var(--dl-space-space-twounits);
+  border-width: 0px;
+  flex-direction: row;
+}
+.mental-awareness-interest-poster-link {
+  display: contents;
+}
+.mental-awareness-interest-poster-image {
+  object-fit: cover;
+  text-decoration: none;
+}
+.mental-awareness-interest-poster-link1 {
+  height: 18px;
+  display: flex;
+  padding: 0px;
+  margin-left: var(--dl-space-space-twounits);
+  border-width: 0px;
+  flex-direction: row;
+  text-decoration: none;
+}
+.mental-awareness-interest-poster-image1 {
+  object-fit: cover;
+}
+.mental-awareness-interest-poster-burger-menu {
+  display: none;
+}
+.mental-awareness-interest-poster-icon {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.mental-awareness-interest-poster-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  border-radius: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.mental-awareness-interest-poster-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mental-awareness-interest-poster-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.mental-awareness-interest-poster-logo1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.mental-awareness-interest-poster-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mental-awareness-interest-poster-icon02 {
+  fill: var(--dl-color-gray-900);
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.mental-awareness-interest-poster-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mental-awareness-interest-poster-nav1 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.mental-awareness-interest-poster-nav2 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.mental-awareness-interest-poster-nav3 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.mental-awareness-interest-poster-nav4 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.mental-awareness-interest-poster-nav5 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.mental-awareness-interest-poster-buttons {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mental-awareness-interest-poster-login {
+  border-color: var(--dl-color-primary1-blue100);
+  border-width: 1px;
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: 1.5rem;
+  border-radius: 30px;
+  padding-right: 1.5rem;
+}
+.mental-awareness-interest-poster-register {
+  color: var(--dl-color-gray-white);
+  transition: 0.3s;
+  border-color: var(--dl-color-primary1-blue100);
+  border-width: 1px;
+  padding-left: 1.5rem;
+  border-radius: 30px;
+  padding-right: 1.5rem;
+  background-color: var(--dl-color-primary1-blue100);
+}
+.mental-awareness-interest-poster-register:hover {
+  border-color: #849492ff;
+  background-color: #849492ff;
+}
+.mental-awareness-interest-poster-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.mental-awareness-interest-poster-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.mental-awareness-interest-poster-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.mental-awareness-interest-poster-hero {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: var(--dl-color-primary1-bf00ff);
+}
+.mental-awareness-interest-poster-details {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mental-awareness-interest-poster-gallery {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mental-awareness-interest-poster-gallery1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+}
+.mental-awareness-interest-poster-gallery-heading {
+  text-align: center;
+  font-family: "Raleway";
+  line-height: 1.6;
+}
+.mental-awareness-interest-poster-gallery-sub-heading {
+  color: rgb(153, 153, 153);
+  text-align: center;
+  line-height: 1.6;
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+}
+.mental-awareness-interest-poster-image2 {
+  width: 100%;
+  margin-top: var(--dl-space-space-twounits);
+  object-fit: cover;
+}
+.mental-awareness-interest-poster-navlink1 {
+  align-self: flex-end;
+  text-decoration: none;
+}
+.mental-awareness-interest-poster-footer {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.mental-awareness-interest-poster-footer1 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: space-between;
+}
+.mental-awareness-interest-poster-container3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.mental-awareness-interest-poster-logo2 {
+  color: var(--dl-color-gray-white);
+  font-size: 2em;
+  font-weight: bold;
+}
+.mental-awareness-interest-poster-separator {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-800);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.mental-awareness-interest-poster-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mental-awareness-interest-poster-text {
+  color: var(--dl-color-secondary-gray500);
+}
+.mental-awareness-interest-poster-button1 {
+  height: 18px;
+  display: flex;
+  padding: 0px;
+  margin-left: var(--dl-space-space-twounits);
+  border-width: 0px;
+  flex-direction: row;
+}
+.mental-awareness-interest-poster-link2 {
+  display: contents;
+}
+.mental-awareness-interest-poster-image3 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.mental-awareness-interest-poster-button2 {
+  height: 18px;
+  display: flex;
+  padding: 0px;
+  margin-left: var(--dl-space-space-twounits);
+  border-width: 0px;
+  flex-direction: row;
+}
+.mental-awareness-interest-poster-link3 {
+  display: contents;
+}
+.mental-awareness-interest-poster-image4 {
+  object-fit: cover;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .mental-awareness-interest-poster-gallery-sub-heading {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .mental-awareness-interest-poster-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .mental-awareness-interest-poster-desktop-menu {
+    display: none;
+  }
+  .mental-awareness-interest-poster-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mental-awareness-interest-poster-mobile-menu {
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .mental-awareness-interest-poster-nav1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .mental-awareness-interest-poster-nav2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .mental-awareness-interest-poster-nav3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .mental-awareness-interest-poster-nav4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .mental-awareness-interest-poster-nav5 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .mental-awareness-interest-poster-gallery1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .mental-awareness-interest-poster-gallery-sub-heading {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .mental-awareness-interest-poster-footer1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .mental-awareness-interest-poster-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .mental-awareness-interest-poster-container4 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .mental-awareness-interest-poster-text {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 479px) {
+  .mental-awareness-interest-poster-navbar-interactive {
+    width: 90%;
+    padding: var(--dl-space-space-unit);
+  }
+  .mental-awareness-interest-poster-mobile-menu {
+    padding: 16px;
+  }
+  .mental-awareness-interest-poster-logo1 {
+    font-size: 1.5em;
+  }
+  .mental-awareness-interest-poster-icon02 {
+    fill: var(--dl-color-gray-900);
+  }
+  .mental-awareness-interest-poster-gallery1 {
+    padding: var(--dl-space-space-unit);
+  }
+  .mental-awareness-interest-poster-footer1 {
+    padding: var(--dl-space-space-unit);
+  }
+  .mental-awareness-interest-poster-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .mental-awareness-interest-poster-container4 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .mental-awareness-interest-poster-text {
+    text-align: center;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}

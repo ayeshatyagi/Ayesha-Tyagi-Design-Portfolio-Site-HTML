@@ -1,0 +1,470 @@
+.fizzle-ad-campaign-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.fizzle-ad-campaign-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: var(--dl-color-primary1-bf00ff);
+}
+.fizzle-ad-campaign-navbar-interactive {
+  width: 90%;
+  display: flex;
+  position: sticky;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-threeunits);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.fizzle-ad-campaign-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+.fizzle-ad-campaign-navlink {
+  height: 28px;
+  display: flex;
+  padding: 0px;
+  border-width: 0px;
+  flex-direction: row;
+  text-decoration: none;
+}
+.fizzle-ad-campaign-logo {
+  object-fit: cover;
+}
+.fizzle-ad-campaign-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.fizzle-ad-campaign-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.fizzle-ad-campaign-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.fizzle-ad-campaign-button {
+  height: 18px;
+  display: flex;
+  padding: 0px;
+  margin-left: var(--dl-space-space-twounits);
+  border-width: 0px;
+  flex-direction: row;
+}
+.fizzle-ad-campaign-link {
+  display: contents;
+}
+.fizzle-ad-campaign-image {
+  object-fit: cover;
+  text-decoration: none;
+}
+.fizzle-ad-campaign-link1 {
+  height: 18px;
+  display: flex;
+  padding: 0px;
+  margin-left: var(--dl-space-space-twounits);
+  border-width: 0px;
+  flex-direction: row;
+  text-decoration: none;
+}
+.fizzle-ad-campaign-image1 {
+  object-fit: cover;
+}
+.fizzle-ad-campaign-burger-menu {
+  display: none;
+}
+.fizzle-ad-campaign-icon {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.fizzle-ad-campaign-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  border-radius: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.fizzle-ad-campaign-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.fizzle-ad-campaign-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.fizzle-ad-campaign-logo1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.fizzle-ad-campaign-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fizzle-ad-campaign-icon02 {
+  fill: var(--dl-color-gray-900);
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.fizzle-ad-campaign-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.fizzle-ad-campaign-nav1 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.fizzle-ad-campaign-nav2 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.fizzle-ad-campaign-nav3 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.fizzle-ad-campaign-nav4 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.fizzle-ad-campaign-nav5 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.fizzle-ad-campaign-buttons {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fizzle-ad-campaign-login {
+  border-color: var(--dl-color-primary1-blue100);
+  border-width: 1px;
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: 1.5rem;
+  border-radius: 30px;
+  padding-right: 1.5rem;
+}
+.fizzle-ad-campaign-register {
+  color: var(--dl-color-gray-white);
+  transition: 0.3s;
+  border-color: var(--dl-color-primary1-blue100);
+  border-width: 1px;
+  padding-left: 1.5rem;
+  border-radius: 30px;
+  padding-right: 1.5rem;
+  background-color: var(--dl-color-primary1-blue100);
+}
+.fizzle-ad-campaign-register:hover {
+  border-color: #849492ff;
+  background-color: #849492ff;
+}
+.fizzle-ad-campaign-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.fizzle-ad-campaign-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.fizzle-ad-campaign-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.fizzle-ad-campaign-hero {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: var(--dl-color-primary1-bf00ff);
+}
+.fizzle-ad-campaign-details {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fizzle-ad-campaign-gallery {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fizzle-ad-campaign-gallery1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+}
+.fizzle-ad-campaign-gallery-heading {
+  text-align: center;
+  font-family: "Raleway";
+  line-height: 1.6;
+}
+.fizzle-ad-campaign-gallery-sub-heading {
+  color: rgb(153, 153, 153);
+  text-align: center;
+  line-height: 1.6;
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+}
+.fizzle-ad-campaign-image2 {
+  width: 100%;
+  margin-top: var(--dl-space-space-twounits);
+  object-fit: cover;
+}
+.fizzle-ad-campaign-navlink1 {
+  align-self: flex-end;
+  text-decoration: none;
+}
+.fizzle-ad-campaign-footer {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.fizzle-ad-campaign-footer1 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: space-between;
+}
+.fizzle-ad-campaign-container3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.fizzle-ad-campaign-logo2 {
+  color: var(--dl-color-gray-white);
+  font-size: 2em;
+  font-weight: bold;
+}
+.fizzle-ad-campaign-separator {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-800);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.fizzle-ad-campaign-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fizzle-ad-campaign-text {
+  color: var(--dl-color-secondary-gray500);
+}
+.fizzle-ad-campaign-button1 {
+  height: 18px;
+  display: flex;
+  padding: 0px;
+  margin-left: var(--dl-space-space-twounits);
+  border-width: 0px;
+  flex-direction: row;
+}
+.fizzle-ad-campaign-link2 {
+  display: contents;
+}
+.fizzle-ad-campaign-image3 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.fizzle-ad-campaign-button2 {
+  height: 18px;
+  display: flex;
+  padding: 0px;
+  margin-left: var(--dl-space-space-twounits);
+  border-width: 0px;
+  flex-direction: row;
+}
+.fizzle-ad-campaign-link3 {
+  display: contents;
+}
+.fizzle-ad-campaign-image4 {
+  object-fit: cover;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .fizzle-ad-campaign-gallery-sub-heading {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .fizzle-ad-campaign-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .fizzle-ad-campaign-desktop-menu {
+    display: none;
+  }
+  .fizzle-ad-campaign-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fizzle-ad-campaign-mobile-menu {
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .fizzle-ad-campaign-nav1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .fizzle-ad-campaign-nav2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .fizzle-ad-campaign-nav3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .fizzle-ad-campaign-nav4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .fizzle-ad-campaign-nav5 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .fizzle-ad-campaign-gallery1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .fizzle-ad-campaign-gallery-sub-heading {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .fizzle-ad-campaign-footer1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .fizzle-ad-campaign-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .fizzle-ad-campaign-container4 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .fizzle-ad-campaign-text {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 479px) {
+  .fizzle-ad-campaign-navbar-interactive {
+    width: 90%;
+    padding: var(--dl-space-space-unit);
+  }
+  .fizzle-ad-campaign-mobile-menu {
+    padding: 16px;
+  }
+  .fizzle-ad-campaign-logo1 {
+    font-size: 1.5em;
+  }
+  .fizzle-ad-campaign-icon02 {
+    fill: var(--dl-color-gray-900);
+  }
+  .fizzle-ad-campaign-gallery1 {
+    padding: var(--dl-space-space-unit);
+  }
+  .fizzle-ad-campaign-footer1 {
+    padding: var(--dl-space-space-unit);
+  }
+  .fizzle-ad-campaign-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .fizzle-ad-campaign-container4 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .fizzle-ad-campaign-text {
+    text-align: center;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}

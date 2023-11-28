@@ -1,0 +1,470 @@
+.kombucha-ad-redesign-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.kombucha-ad-redesign-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: var(--dl-color-primary1-bf00ff);
+}
+.kombucha-ad-redesign-navbar-interactive {
+  width: 90%;
+  display: flex;
+  position: sticky;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-threeunits);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.kombucha-ad-redesign-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+.kombucha-ad-redesign-navlink {
+  height: 28px;
+  display: flex;
+  padding: 0px;
+  border-width: 0px;
+  flex-direction: row;
+  text-decoration: none;
+}
+.kombucha-ad-redesign-logo {
+  object-fit: cover;
+}
+.kombucha-ad-redesign-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.kombucha-ad-redesign-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.kombucha-ad-redesign-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.kombucha-ad-redesign-button {
+  height: 18px;
+  display: flex;
+  padding: 0px;
+  margin-left: var(--dl-space-space-twounits);
+  border-width: 0px;
+  flex-direction: row;
+}
+.kombucha-ad-redesign-link {
+  display: contents;
+}
+.kombucha-ad-redesign-image {
+  object-fit: cover;
+  text-decoration: none;
+}
+.kombucha-ad-redesign-link1 {
+  height: 18px;
+  display: flex;
+  padding: 0px;
+  margin-left: var(--dl-space-space-twounits);
+  border-width: 0px;
+  flex-direction: row;
+  text-decoration: none;
+}
+.kombucha-ad-redesign-image1 {
+  object-fit: cover;
+}
+.kombucha-ad-redesign-burger-menu {
+  display: none;
+}
+.kombucha-ad-redesign-icon {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.kombucha-ad-redesign-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  border-radius: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.kombucha-ad-redesign-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.kombucha-ad-redesign-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.kombucha-ad-redesign-logo1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.kombucha-ad-redesign-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kombucha-ad-redesign-icon02 {
+  fill: var(--dl-color-gray-900);
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.kombucha-ad-redesign-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.kombucha-ad-redesign-nav1 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.kombucha-ad-redesign-nav2 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.kombucha-ad-redesign-nav3 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.kombucha-ad-redesign-nav4 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.kombucha-ad-redesign-nav5 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.kombucha-ad-redesign-buttons {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.kombucha-ad-redesign-login {
+  border-color: var(--dl-color-primary1-blue100);
+  border-width: 1px;
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: 1.5rem;
+  border-radius: 30px;
+  padding-right: 1.5rem;
+}
+.kombucha-ad-redesign-register {
+  color: var(--dl-color-gray-white);
+  transition: 0.3s;
+  border-color: var(--dl-color-primary1-blue100);
+  border-width: 1px;
+  padding-left: 1.5rem;
+  border-radius: 30px;
+  padding-right: 1.5rem;
+  background-color: var(--dl-color-primary1-blue100);
+}
+.kombucha-ad-redesign-register:hover {
+  border-color: #849492ff;
+  background-color: #849492ff;
+}
+.kombucha-ad-redesign-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.kombucha-ad-redesign-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.kombucha-ad-redesign-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.kombucha-ad-redesign-hero {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: var(--dl-color-primary1-bf00ff);
+}
+.kombucha-ad-redesign-details {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kombucha-ad-redesign-gallery {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kombucha-ad-redesign-gallery1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+}
+.kombucha-ad-redesign-gallery-heading {
+  text-align: center;
+  font-family: "Raleway";
+  line-height: 1.6;
+}
+.kombucha-ad-redesign-gallery-sub-heading {
+  color: rgb(153, 153, 153);
+  text-align: center;
+  line-height: 1.6;
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+}
+.kombucha-ad-redesign-image2 {
+  width: 100%;
+  margin-top: var(--dl-space-space-twounits);
+  object-fit: cover;
+}
+.kombucha-ad-redesign-navlink1 {
+  align-self: flex-end;
+  text-decoration: none;
+}
+.kombucha-ad-redesign-footer {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.kombucha-ad-redesign-footer1 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: space-between;
+}
+.kombucha-ad-redesign-container3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.kombucha-ad-redesign-logo2 {
+  color: var(--dl-color-gray-white);
+  font-size: 2em;
+  font-weight: bold;
+}
+.kombucha-ad-redesign-separator {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-800);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.kombucha-ad-redesign-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.kombucha-ad-redesign-text {
+  color: var(--dl-color-secondary-gray500);
+}
+.kombucha-ad-redesign-button1 {
+  height: 18px;
+  display: flex;
+  padding: 0px;
+  margin-left: var(--dl-space-space-twounits);
+  border-width: 0px;
+  flex-direction: row;
+}
+.kombucha-ad-redesign-link2 {
+  display: contents;
+}
+.kombucha-ad-redesign-image3 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.kombucha-ad-redesign-button2 {
+  height: 18px;
+  display: flex;
+  padding: 0px;
+  margin-left: var(--dl-space-space-twounits);
+  border-width: 0px;
+  flex-direction: row;
+}
+.kombucha-ad-redesign-link3 {
+  display: contents;
+}
+.kombucha-ad-redesign-image4 {
+  object-fit: cover;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .kombucha-ad-redesign-gallery-sub-heading {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .kombucha-ad-redesign-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .kombucha-ad-redesign-desktop-menu {
+    display: none;
+  }
+  .kombucha-ad-redesign-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .kombucha-ad-redesign-mobile-menu {
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .kombucha-ad-redesign-nav1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .kombucha-ad-redesign-nav2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .kombucha-ad-redesign-nav3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .kombucha-ad-redesign-nav4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .kombucha-ad-redesign-nav5 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .kombucha-ad-redesign-gallery1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .kombucha-ad-redesign-gallery-sub-heading {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .kombucha-ad-redesign-footer1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .kombucha-ad-redesign-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .kombucha-ad-redesign-container4 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .kombucha-ad-redesign-text {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 479px) {
+  .kombucha-ad-redesign-navbar-interactive {
+    width: 90%;
+    padding: var(--dl-space-space-unit);
+  }
+  .kombucha-ad-redesign-mobile-menu {
+    padding: 16px;
+  }
+  .kombucha-ad-redesign-logo1 {
+    font-size: 1.5em;
+  }
+  .kombucha-ad-redesign-icon02 {
+    fill: var(--dl-color-gray-900);
+  }
+  .kombucha-ad-redesign-gallery1 {
+    padding: var(--dl-space-space-unit);
+  }
+  .kombucha-ad-redesign-footer1 {
+    padding: var(--dl-space-space-unit);
+  }
+  .kombucha-ad-redesign-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .kombucha-ad-redesign-container4 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .kombucha-ad-redesign-text {
+    text-align: center;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
